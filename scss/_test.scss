@@ -1,0 +1,49 @@
+html{
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before{
+    box-sizing: inherit;
+}
+
+.test{
+    margin: 0;
+    padding: 50px;
+    font-family: sans-serif;
+}
+.check{
+padding-left: 1.2em;
+}
+
+.check__input{
+    position: absolute;
+width: 1px;
+height: 1px;
+overflow: hidden;
+clip: rect(0 0 0 0);
+}
+
+.check__box{
+position: absolute;
+margin-left: -2.2em;
+width: 1.5em;
+height: 1.5em;
+background-image: url(../pic/favicon.svg);
+
+}
+
+.option{
+    display: block;
+    margin-bottom: 1.5em;
+}
+
+.check__input:checked + .check__box{
+  background-image: url(../pic/Icon-Phone-call.svg);
+}
+
+.check__input:focus + .check__box{
+    background-image: url(../pic/icon_burger_menu.svg);
+
+}

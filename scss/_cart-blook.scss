@@ -1,0 +1,45 @@
+.cart-title{
+    padding: 8px 0;
+  margin: 0;  
+}
+
+.cart-blook{
+   display: flex;
+  
+   margin: 0;
+   /*width: 100%;
+   flex-basis: calc((100% - 48px)/3);*/
+   gap: 24px; 
+   
+}
+
+.cart-item{
+    margin: 0;
+    display: block;
+    /*width: 100%;
+    flex-basis: calc((100% - 48px)/3);*/
+   }
+
+.cart-page{
+    margin: 0;
+    }
+
+ .cart-text{
+    margin: 0;
+ color: #FFF;
+ font-family: Poppins;
+ font-size: 16px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: 140%; /* 22.4px */ 
+
+ padding:0 0 16px 0;
+} 
+
+.cart-price{
+  font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 140%; /* 33.6px */
+margin: 0; 
+}

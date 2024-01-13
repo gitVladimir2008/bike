@@ -1,0 +1,286 @@
+
+:root{
+    --background-color: #1D1D1D;
+    --color: #FFF;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+}
+
+.a {
+  display: inline-block;
+}
+
+ul,
+ol {
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+/*link*/
+ul {
+  list-style-type: none;
+}
+
+
+body {
+    color:var(--color);
+    background-color:var(--background-color);
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+
+    width: 1020px; 
+  }
+.conteiner{
+    max-width: 1260px;
+    width: 100%;
+    margin: 0 120px;
+    
+   
+}
+
+.section-title{
+    color:var(--color);
+
+font-family: Poppins;
+font-size: 64px;
+font-style: normal;
+font-weight: 500;
+line-height: 100%; /* 64px */
+letter-spacing: -1.5px;
+text-align: center;
+align-items: center;
+
+/*width: 411px;*/
+margin: 0;
+}
+
+.hero-section{
+    width: 1260px;
+    height: 711px;
+   
+    /*border: 2px dashed #2a2a2a;
+    border-radius: 8px;*/
+    /*background-image: url(../pic/bike-min.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;*/
+    /*background: url(../pic/bike-min.jpg), lightgray 50%, cover no-repeat;*/
+
+   background-image: url(../pic/bike-min.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.link {
+    text-decoration: none;
+}
+.button{
+    padding: 0;
+    border: none;
+}
+/*--header--*/
+.header{
+    width: 1260px;
+}
+.header-nav{
+display: flex;
+
+padding: 36px 120px;
+justify-content: space-between;
+align-items: center;
+}
+
+.header-button{
+    padding: 0;
+    border: none;
+    fill: var(--color);
+    background-color: var(--background-color);
+}
+
+
+
+.nav-button{
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+
+    margin-left: auto;
+}
+
+.hero-text{
+    color:var(--color);
+    padding:428px 294px 203px 294px;
+text-align: center;
+font-family: Poppins;
+font-size: 80px;
+font-style: normal;
+font-weight: 700;
+line-height: 100%; /* 80px */
+letter-spacing: -1.5px;
+}
+
+/*--two--*/
+.too{
+    display: inline-flex;
+align-items: flex-start;
+gap: 24px;
+
+margin: 120px 207px 120px 120px;
+}
+
+.too-text{
+    margin: 0;
+    width: 498px;
+}
+
+/*--three-*/
+.section-position{
+    text-align: left;
+    width: 411px;
+}
+
+/*--cart-blook--*/
+@import "./cart-blook";
+
+@import "./test";/*delete*/
+
+/*--contact--*/
+.contact-position{
+    margin: 180px 0 48px 0;
+}
+.form-contact{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 198px;
+   
+
+  padding: 0 294px 0 120px;
+
+}
+
+.form-fields{
+    display: block;
+    gap: 16px;
+   margin-bottom: 16px;
+}
+.form-input {
+    display: block;
+                     
+          width: 411px;
+        height: 48px;
+        flex-shrink: 0;
+        border-radius: 40px;
+        background: #F8F8FA;
+        
+        gap: 16px;
+
+        padding: 14px 16px;
+    }
+
+.form-input-mess{
+        display: flex;
+width: 411px;
+min-height: 148px;
+padding: 14px 16px;
+align-items: flex-start;
+gap: 10px;
+padding: 0 16px;
+
+border-radius: 16px;
+background: #F8F8FA;
+
+ }
+
+.form-button{
+    display: flex;
+width: 411px;
+height: 56px;
+padding: 0px 48px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+
+border-radius: 40px;
+background: #FFF;
+/*box-shadow: 1px 4px 16px 0px rgba(232, 232, 240, 0.40);
+*/
+}
+
+
+/*--detals--*/
+.details-conteiner{
+    display: flex;
+ flex-wrap: wrap;
+ 
+}
+
+.details-position{
+margin: 144px 0 48px 0;
+}
+
+.paragraph-list{
+    display: flex;
+    
+       gap: 24px;
+    width: calc(( 100% - 24px) /2);
+  }
+
+.paragraph-title{
+    font-style: normal;
+    font-weight: 700;
+    margin: 16px 0 8px 0;
+    line-height: 140%; /* 33.6px */
+}
+
+.paragraph-text{
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 140%; /* 22.4px */
+   width: 672px;
+   margin-bottom: 48px;
+}
+
+.paragraph-button{
+    display: flex;
+width: 411px;
+height: 56px;
+margin: 0 auto;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+
+border-radius: 40px;
+background: #FFF;
+}
+
+
+/*footer*/
+.footer{
+width: 1260px;
+height: 555px;
+flex-shrink: 0;
+
+background: url(../pic/footer-img-min.jpg),lightgray 50% / cover no-repeat;
+}
